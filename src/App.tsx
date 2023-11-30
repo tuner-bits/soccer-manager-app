@@ -2,6 +2,7 @@ import * as React from 'react';
 import { ThemeProvider } from '@mui/material/styles';
 import { theme } from './utils/theme';
 import { CustomButton } from './components/mutliMinnis';
+
 function App() {
   return (
     <ThemeProvider theme={theme}>

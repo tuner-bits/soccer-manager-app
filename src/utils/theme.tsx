@@ -14,6 +14,9 @@ const color_scheme = {
   }
 }
 const theme = createTheme({
+  typography: {
+    fontFamily: 'Poppins, sans-serif',
+  },
   palette: {
     primary:  {
       main:color_scheme.primary_orange,
